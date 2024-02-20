@@ -14,10 +14,16 @@
             "homepage": "https://github.com/avto-dev"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yurichechulin/static-references-data"
+        }
+    ],
     "require": {
         "php": "^8.0.2",
         "ext-json": "*",
-        "avto-dev/static-references-data": "^3.0",
+        "avto-dev/static-references-data": "dev-change-vehicle-registration-action-codes",
         "illuminate/support": "~9.0 || ~10.0"
     },
     "require-dev": {
